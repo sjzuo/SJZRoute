@@ -13,6 +13,10 @@
 
 @implementation SJZRouteWorker
 
+
+
+
+
 + (instancetype)createInstance:(NSString *)className {
     return [self createInstance:className selector:@"init" selArguments:nil withParams:nil];
 }
